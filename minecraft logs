@@ -1,0 +1,462 @@
+[10:02:49] [main/INFO]: ModLauncher running: args [--username, Hexagon37, --version, forge-36.2.2, --gameDir, C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6), --assetsDir, C:\Users\doria\Twitch\Minecraft\Install\assets, --assetIndex, 1.16, --uuid, d1117757a31245619398fe7ec8cdd11d, --accessToken, ????????, --userType, msa, --versionType, release, --width, 1920, --height, 1080, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.2, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[10:02:49] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[10:02:49] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[10:02:50] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[10:02:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/doria/Twitch/Minecraft/Install/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[10:02:52] [main/INFO]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[10:02:52] [main/INFO]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+[10:02:52] [main/INFO]: Launching target 'fmlclient' with arguments [--version, forge-36.2.2, --gameDir, C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6), --assetsDir, C:\Users\doria\Twitch\Minecraft\Install\assets, --uuid, d1117757a31245619398fe7ec8cdd11d, --username, Hexagon37, --assetIndex, 1.16, --accessToken, ????????, --userType, msa, --versionType, release, --width, 1920, --height, 1080]
+[10:02:52] [main/WARN]: Reference map 'globaldataandresourcepacks.refmap.json' for globaldataandresourcepacks.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:02:53] [main/INFO]: Performant configs loaded
+[10:02:53] [main/INFO]: Patching LivingEntity#attackEntityFrom
+[10:02:54] [main/INFO]: Patching ItemStack#onItemUse
+[10:02:54] [main/INFO]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
+[10:02:54] [main/INFO]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
+[10:02:54] [main/INFO]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
+[10:02:56] [pool-3-thread-1/INFO]: Patching LivingEntity#attackEntityFrom
+[10:02:59] [pool-3-thread-1/INFO]: Patching ItemStack#onItemUse
+[10:03:03] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:03:04] [Render thread/INFO]: Setting user: Hexagon37
+[10:03:04] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[10:03:12] [Render thread/WARN]: Cryptography is restricted in this Java installation
+[10:03:12] [Render thread/WARN]: Please complain to Mojang for shipping a 5 year old Java version
+[10:03:12] [Render thread/INFO]: Cryptography restriction removed successfully
+[10:03:12] [Render thread/INFO]: Patching DataPackRegistries#<init>
+[10:03:12] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:03:12] [Render thread/INFO]: Environment: PROD
+[10:03:12] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:03:12] [Render thread/INFO]: Environment: PROD
+[10:03:14] [Render thread/INFO]: Potentially Dangerous alternative prefix `torchbowmod` for name `torchbow`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[10:03:14] [Render thread/INFO]: Potentially Dangerous alternative prefix `torchbowmod` for name `multitorch`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[10:03:14] [modloading-worker-2/INFO]: Patching DataPackRegistries#<init>
+[10:03:14] [modloading-worker-5/INFO]: Patching LootTableManager#apply
+[10:03:14] [modloading-worker-2/INFO]: Patching ModelBakery#<init>
+[10:03:14] [modloading-worker-2/INFO]: Forge mod loading, version 36.2.2, for MC 1.16.5 with MCP 20210115.111550
+[10:03:14] [modloading-worker-2/INFO]: MinecraftForge v36.2.2 Initialized
+[10:03:14] [modloading-worker-4/INFO]: Mod uteamcore is signed with a valid certificate.
+[10:03:14] [modloading-worker-4/INFO]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[10:03:14] [modloading-worker-4/INFO]: Mod usefulbackpacks is signed with a valid certificate.
+[10:03:14] [modloading-worker-2/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
+[10:03:14] [modloading-worker-2/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[10:03:14] [modloading-worker-2/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[10:03:14] [modloading-worker-2/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[10:03:14] [modloading-worker-2/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
+[10:03:15] [modloading-worker-4/INFO]: Loading config file C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\config\torchbandolier-common.toml
+[10:03:16] [modloading-worker-2/INFO]: Loading config: C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\config\byg\byg-nether.toml
+[10:03:21] [Render thread/INFO]: Ore Blocks Registered
+[10:03:21] [Render thread/INFO]: Blocks Registered
+[10:03:22] [Render thread/INFO]: BYG: Blocks registered!
+[10:03:22] [Render thread/INFO]: ItemBlocks Registered
+[10:03:22] [Render thread/INFO]: Ingots Registered
+[10:03:22] [Render thread/INFO]: BYG: Items registered!
+[10:03:22] [Render thread/INFO]: Registered 11 GlobalLootModifierSerializer entries in 0.16ms.
+[10:03:23] [Render thread/WARN]: @Final field field_187234_c:Ljava/util/Map; in performant.mixins.json:entity.EntityDataManagerMixin should be final
+[10:03:23] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for farmingforblockheads:merchant, use EntityAttributeCreationEvent instead.
+[10:03:23] [Render thread/INFO]: BYG: Entities registered!
+[10:03:23] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[10:03:23] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[10:03:23] [Render thread/INFO]: Registered 22 ingredient serializers.
+[10:03:23] [Render thread/INFO]: Registered 5 IRecipeSerializer entries in 0.07ms.
+[10:03:24] [Render thread/INFO]: BYG: Biomes registered!
+[10:03:24] [Render thread/INFO]: BYG: Registering block placer types!
+[10:03:24] [Render thread/INFO]: BYG: Decorators registered!
+[10:03:24] [Render thread/INFO]: BYG: Features registered!
+[10:03:24] [Render thread/INFO]: BYG: Structures registered!
+[10:03:24] [Render thread/INFO]: BYG: Surface builders Registered!
+[10:03:24] [Render thread/INFO]: Patching BlockModelShapes#getModelLocation
+[10:03:24] [Render thread/INFO]: Patching ModelBakery#<init>
+[10:03:25] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[10:03:25] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources, resources.zip
+[10:03:28] [Worker-Main-9/WARN]: New day handler for dimension ResourceKey[minecraft:dimension / minecraft:overworld] has been replaced
+[10:03:28] [Worker-Main-9/INFO]: Setup Method Registered (PreInit)
+[10:03:28] [Worker-Main-9/ERROR]: Using missing texture, unable to load tetra:textures/mob_effect/bleeding.png : java.io.FileNotFoundException: tetra:textures/mob_effect/bleeding.png
+[10:03:29] [Worker-Main-9/INFO]: Registering 3 command argument types.
+[10:03:29] [Worker-Main-9/INFO]: Registering 13 loot conditions.
+[10:03:29] [Worker-Main-9/INFO]: farsight_view mod initialized
+[10:03:29] [Worker-Main-8/ERROR]: Using missing texture, unable to load tetra:textures/mob_effect/stun.png : java.io.FileNotFoundException: tetra:textures/mob_effect/stun.png
+[10:03:29] [Worker-Main-9/ERROR]: Using missing texture, unable to load tetra:textures/mob_effect/suspended.png : java.io.FileNotFoundException: tetra:textures/mob_effect/suspended.png
+[10:03:29] [Forge Version Check/INFO]: [glasscutter] Starting version check at https://raw.githubusercontent.com/Lothrazar/GlassCutter/trunk/1.16/update.json
+[10:03:29] [Immersive Engineering Contributors Thread/INFO]: Attempting to download special revolvers from GitHub
+[10:03:29] [Forge Version Check/INFO]: [glasscutter] Found status: BETA Current: 1.16.4-2.0.1 Target: null
+[10:03:29] [Forge Version Check/INFO]: [variant16x] Starting version check at https://raw.githubusercontent.com/BKthousand/Update16x/master/variant16x/updates.json
+[10:03:29] [Forge Version Check/INFO]: [variant16x] Found status: AHEAD Current: 0.21.4_beta_pre6 Target: null
+[10:03:29] [Forge Version Check/INFO]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[10:03:29] [Forge Version Check/INFO]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.2 Target: null
+[10:03:29] [Forge Version Check/INFO]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.16.5
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 clay_ball = 1 clay
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 snowball = 1 snow_block
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 glowstone_dust = 1 glowstone
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 brick = 1 bricks
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 nether_brick = 1 nether_bricks
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 quartz = 1 quartz_block
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 9 melon_slice = 1 melon
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 sand = 1 sandstone
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 red_sand = 1 red_sandstone
+[10:03:29] [Worker-Main-8/INFO]: New compacting rule 4 clay_ball = 1 clay
+[10:03:29] [Worker-Main-8/INFO]: Performant2 loaded, lag begone!
+[10:03:29] [Worker-Main-8/INFO]: [de.guntram.mcmod.durabilityviewer.DurabilityViewer:init:49]: on Init, confHandler is de.guntram.mcmod.durabilityviewer.handler.ConfigurationHandler@7f947715
+[10:03:29] [Worker-Main-8/INFO]: Reading Sub-Biomes json
+[10:03:29] [Worker-Main-8/INFO]: Reading json
+[10:03:29] [Worker-Main-8/INFO]: BYG: "Common Setup" Event Complete!
+[10:03:32] [Worker-Main-8/WARN]: FMLCommonSetupEvent
+[10:03:33] [Forge Version Check/INFO]: [clumps] Found status: BETA Current: 6.0.0.25 Target: 6.0.0.25
+[10:03:33] [Forge Version Check/INFO]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.16.5
+[10:03:33] [Worker-Main-8/INFO]: Loading Xaero's World Map - Stage 1/2
+[10:03:33] [Placebo Patreon Wing Loader/INFO]: Loading patreon wing data...
+[10:03:33] [Placebo Patreon Trail Loader/INFO]: Loading patreon trails data...
+[10:03:33] [Worker-Main-7/INFO]: Client Registries Method Registered (Client Side)
+[10:03:33] [Worker-Main-9/INFO]: Loading Xaero's Minimap - Stage 1/2
+[10:03:33] [Placebo Patreon Wing Loader/INFO]: Loaded 4 patreon wings.
+[10:03:33] [Worker-Main-10/INFO]: Optifine not found. Disabling compat.
+[10:03:33] [Worker-Main-10/INFO]: BYG: "Client Setup" Event Complete!
+[10:03:33] [Placebo Patreon Trail Loader/INFO]: Loaded 4 patreon trails.
+[10:03:33] [Forge Version Check/INFO]: [controlling] Found status: BETA Current: 7.0.0.24 Target: 7.0.0.24
+[10:03:33] [Forge Version Check/INFO]: [reauth] Starting version check at https://raw.githubusercontent.com/TechnicianLP/ReAuth/master/update.json
+[10:03:33] [Forge Version Check/INFO]: [reauth] Found status: BETA Current: 3.9.3 Target: null
+[10:03:33] [Forge Version Check/INFO]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.16.5
+[10:03:33] [Forge Version Check/INFO]: [bookshelf] Found status: BETA Current: 10.2.27 Target: 10.2.27
+[10:03:33] [Forge Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[10:03:33] [Forge Version Check/INFO]: [uteamcore] Found status: UP_TO_DATE Current: 3.2.1.196 Target: null
+[10:03:33] [Forge Version Check/INFO]: [wawla] Starting version check at https://updates.blamejared.com/get?n=wawla&gv=1.16.5
+[10:03:33] [Forge Version Check/INFO]: [wawla] Found status: BETA Current: 8.0.6 Target: 8.0.6
+[10:03:33] [Forge Version Check/INFO]: [horsestandstill] Starting version check at https://raw.githubusercontent.com/Lothrazar/stupidHorseStandStill/trunk/1.16/update.json
+[10:03:33] [Forge Version Check/INFO]: [horsestandstill] Found status: AHEAD Current: 1.16.5-1.0.2 Target: null
+[10:03:33] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10:03:34] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[10:03:34] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Current: 36.2.2 Target: 36.2.4
+[10:03:34] [Forge Version Check/INFO]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[10:03:34] [Forge Version Check/INFO]: [mcwbridges] Found status: UP_TO_DATE Current: 1.0.6 Target: null
+[10:03:34] [Forge Version Check/INFO]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[10:03:34] [Forge Version Check/INFO]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.12.1.90 Target: null
+[10:03:34] [Forge Version Check/INFO]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchantmentdescriptions&gv=1.16.4
+[10:03:34] [Forge Version Check/INFO]: [enchdesc] Found status: BETA Current: 7.0.14 Target: null
+[10:03:34] [Forge Version Check/INFO]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[10:03:34] [Render thread/INFO]: [xaero.common.mods.SupportMods:<init>:35]: Xaero's Minimap: World Map found!
+[10:03:34] [Render thread/INFO]: [xaero.common.mods.SupportMods:<init>:45]: No Optifine!
+[10:03:34] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[10:03:34] [Render thread/INFO]: [xaero.map.settings.ModSettings:updateRegionCacheHashCode:382]: New world map region cache hash code: -168700787
+[10:03:34] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[10:03:34] [Render thread/INFO]: [xaero.map.mods.SupportMods:load:26]: No Optifine!
+[10:03:34] [Render thread/INFO]: [xaero.map.mods.SupportMods:load:35]: No Vivecraft!
+[10:03:35] [Forge Version Check/INFO]: [mousetweaks] Found status: BETA Current: 2.14 Target: null
+[10:03:35] [Forge Version Check/INFO]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.16/changelog.json
+[10:03:35] [Forge Version Check/INFO]: [immersiveengineering] Found status: BETA Current: 1.16.5-5.0.3-138 Target: null
+[10:03:35] [Forge Version Check/INFO]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.14/update.json
+[10:03:35] [Forge Version Check/INFO]: [silentlib] Found status: BETA Current: 4.10.0 Target: null
+[10:03:35] [Forge Version Check/INFO]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[10:03:35] [Forge Version Check/INFO]: [jeiintegration] Found status: BETA Current: 7.0.1.15 Target: null
+[10:03:35] [Forge Version Check/INFO]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[10:03:35] [Forge Version Check/INFO]: [tombstone] Found status: AHEAD Current: 6.5.1 Target: null
+[10:03:35] [Forge Version Check/INFO]: [ambientenvironment] Starting version check at https://updates.blamejared.com/get?n=AmbientEnvironment&gv=1.16.5
+[10:03:36] [Forge Version Check/INFO]: [ambientenvironment] Found status: BETA Current: 5.0.0.11 Target: 5.0.0.11
+[10:03:36] [Forge Version Check/INFO]: [torchbowmod] Starting version check at https://raw.githubusercontent.com/noriokun4649/TorchBowMod/master/update.json
+[10:03:36] [Forge Version Check/INFO]: [torchbowmod] Found status: BETA Current: 1.4 Target: null
+[10:03:36] [Forge Version Check/INFO]: [moreoverlays] Starting version check at https://raw.githubusercontent.com/feldim2425/Mod_Update-JSONs/master/MoreOverlays.json
+[10:03:36] [Forge Version Check/INFO]: [moreoverlays] Found status: BETA Current: 1.18.15-mc1.16.5 Target: null
+[10:03:36] [Forge Version Check/INFO]: [servertabinfo] Starting version check at https://raw.githubusercontent.com/Crimix/ServerTabInfo/master/update.json
+[10:03:36] [Forge Version Check/INFO]: [servertabinfo] Found status: UP_TO_DATE Current: 1.3.3 Target: null
+[10:03:36] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in minecolonies:block/blockhutplantation
+[10:03:36] [Worker-Main-6/WARN]: Unable to resolve texture reference: #3 in 
+[10:03:36] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in minecolonies:item/blockhutplantation
+[10:03:36] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in minecolonies:item/decorationcontroller
+[10:03:36] [Worker-Main-6/WARN]: Unable to resolve texture reference: #missing in minecolonies:block/decorationcontroller
+[10:03:36] [Worker-Main-6/INFO]: Stitching Revolver Textures!
+[10:03:37] [Worker-Main-9/ERROR]: Using missing texture, unable to load byg:textures/block/overgrown_stone_bottom.png : java.io.FileNotFoundException: byg:textures/block/overgrown_stone_bottom.png
+[10:03:37] [Worker-Main-6/WARN]: Texture minecolonies:gui/builderhut/builder_paper_sketch with size 190x244 limits mip level from 4 to 1
+[10:03:38] [Render thread/INFO]: Loaded 13 buttons from resources.
+[10:03:38] [Worker-Main-8/WARN]: FMLLoadCompleteEvent
+[10:03:38] [Worker-Main-7/INFO]: Registered plugin at net.blay09.mods.waystones.compat.WailaProvider
+[10:03:38] [Worker-Main-7/INFO]: Registered plugin at net.blay09.mods.cookingforblockheads.compat.WailaAddon
+[10:03:38] [Worker-Main-7/INFO]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[10:03:38] [Worker-Main-7/INFO]: Registered plugin at net.darkhax.wawla.WawlaPlugin
+[10:03:38] [Worker-Main-8/WARN]: Register mappings
+[10:03:38] [Worker-Main-7/INFO]: Registered plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[10:03:38] [Worker-Main-7/INFO]: Registered plugin at ovh.corail.tombstone.compatibility.IntegrationHwyla
+[10:03:38] [Worker-Main-7/INFO]: Registered plugin at squeek.wailaharvestability.WailaHandler
+[10:03:38] [Render thread/INFO]: BYG: Compostible Blocks Added!
+[10:03:38] [Render thread/INFO]: BYG: Added Hoeable Blocks!
+[10:03:38] [Render thread/INFO]: BYG: Added Flammables!
+[10:03:38] [Render thread/INFO]: BYG: Added strippable Blocks...
+[10:03:38] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
+[10:03:42] [Render thread/WARN]: Missing description for minecolonies:raider_damage_enchant. 'enchantment.minecolonies.raider_damage_enchant.desc'
+[10:03:42] [Render thread/INFO]: OpenAL initialized.
+[10:03:42] [Render thread/INFO]: Sound engine started
+[10:03:43] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[10:03:43] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[10:03:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
+[10:03:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:03:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:03:43] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10:03:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10:03:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:03:52] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10:03:52] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10:03:52] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:05:08] [Render thread/INFO]: Registering 1 commands.
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [crashutilities, e, remove, items, force] and [crashutilities, e, remove, items, name] with inputs: [words_with_underscores, word]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [crashutilities, e, remove, items, name] and [crashutilities, e, remove, items, force] with inputs: [words_with_underscores, word]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [crashutilities, i, remove, name, slot] and [crashutilities, i, remove, name, slotType] with inputs: [0, -123, 123]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [crashutilities, tp, player, pos] and [crashutilities, tp, player, otherPlayer] with inputs: [0 0 0]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [dc, broadcast, count] and [dc, broadcast, targets] with inputs: [0, -123, 123]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [dc, broadcast, targets] and [dc, broadcast, count] with inputs: [0123]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:05:08] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:05:08] [Render thread/INFO]: Reloading ResourceManager: Default, ExtraArmor 1.16.5 - 1.12.2.jar, glasscutter-1.16.4-2.0.1.jar, TrashSlot_1.16.3-12.2.1.jar, NetherPortalFix_1.16.3-7.2.1.jar, Variant16x-1.16.5-v0.21.4_beta_pre6.jar, DeathCounter-1.16.3-1.2.1.jar, jei-1.16.5-7.7.1.120.jar, caelus-forge-1.16.5-2.1.3.1.jar, invtweaks-1.16.4-1.0.1.jar, Neat 1.7-27.jar, BetterCaves-Forge-1.16.4-1.1.2.jar, Waystones_1.16.5-7.6.2.jar, glassential-forge-1.16.5-1.1.7.jar, Clumps-6.0.0.25.jar, XaerosWorldMap_1.16.1_Forge_1.16.5.jar, shutupexperimentalsettings-1.0.3.jar, mgui-1.16.5-3.2.0.jar, CookingForBlockheads_1.16.5-9.3.3.jar, Controlling-7.0.0.24.jar, ReAuth-1.16-Forge-3.9.3.jar, Placebo-1.16.4-4.5.0.jar, comforts-forge-1.16.5-4.0.1.2.jar, NaturesCompass-1.16.5-1.9.1-forge.jar, YungsApi-1.16.4-Forge-12.jar, netheritehorsearmor-1.7.jar, BasicNetherOres-1.16.5-5.5.0.jar, curioofundying-forge-1.16.5-5.2.0.0.jar, Wither-Skeleton-Tweaks-1.16.4-5.3.0.jar, FarmingForBlockheads_1.16.5-7.3.1.jar, Bookshelf-Forge-1.16.5-10.2.27.jar, u_team_core-1.16.5-3.2.1.196.jar, Morpheus-1.16.5-4.2.70.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, WAWLA-1.16.5-8.0.6.jar, farsight-1.6.jar, Toast-Control-1.16.4-4.3.1.jar, JustEnoughResources-1.16.5-0.12.1.128.jar, horsestandstill-1.16.5-1.0.2.jar, forge-1.16.5-36.2.2-universal.jar, shetiphiancore-1.16-3.8.5.jar, PackMenu-1.16.4-2.4.2.jar, CraftingTweaks_1.16.5-12.2.1.jar, DiceMC-TieredArmor-1.16.5-1.1a.jar, chocolate-1.3.0-1.16.4.jar, mcw-bridges-1.0.6-mc1.16.5.jar, useful_backpacks-1.16.5-1.12.1.90.jar, repurposed_structures_forge-3.2.2+1.16.5.jar, EnchantmentDescriptions-1.16.5-7.0.14.jar, MouseTweaks-2.14-mc1.16.2.jar, crashutilities-3.12.jar, ImmersiveEngineering-1.16.5-5.0.3-138.jar, silent-lib-1.16.5-4.10.0.jar, durability101-1.16-0.0.3.jar, RapidLeafDecay-1.16.5-2.0.0.jar, ceramicbucket-1.16.5-2.7.0.1.jar, simplylight-1.16.4-1.1.3.jar, simplefarming-1.16.5-1.3.8.jar, Ding-1.16.5-1.3.0.jar, ceilingtorch-1.16.5-v1.13.5.jar, ceramicshears-1.16.5-1.5.0.0.jar, jeiintegration_1.16.5-7.0.1.15.jar, curios-forge-1.16.5-4.0.5.2.jar, tetra-1.16.5-3.14.1.jar, Xaeros_Minimap_21.15.1_Forge_1.16.5.jar, collective-1.16.5-2.58.jar, torch-bandolier-1.16.5-1.5.3.jar, StorageDrawers-1.16.3-8.3.0.jar, storageracks-1.5.jar, performant-1.16.2-5-3.72m.jar, tombstone-1.16.5-6.5.1.jar, globaldataandresourcepacks-1.16.4-1.7.4.jar, structurize-0.13.210-ALPHA-universal.jar, betterconduitplacement_1.16.5-1.3.jar, AmbientEnvironment-5.0.0.11.jar, minecolonies-0.14.345-ALPHA-universal.jar, [1.16.1-1.16.4][Forge]TorchBowMod_v1.4.jar, appleskin-forge-mc1.16.x-2.1.0.jar, curiouselytra-forge-1.16.5-4.0.2.3.jar, connectedglass-1.1.0-mc1.16.jar, moreoverlays-1.18.15-mc1.16.5.jar, durabilityviewer-1.16.4-forge35.0.7-1.10.jar, byg-1.3.1.jar, betterbedrockgenerator-1.16.4-0.1.1.jar, CraftableHorseArmour-1.16.5-1.6.jar, FastLeafDecay-v25.jar, CosmeticArmorReworked-1.16.5-v4.jar, valhelsia_core-16.0.10.jar, valhelsia_structures-1.16.5-0.1.5.jar, ServerTabInfo-1.16.4-1.3.3.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, WailaHarvestability-mc1.16.x-forge-1.1.15.jar, supertools-1.16.5-4.5.jar, BetterAdvancements-1.16.5-0.1.1.115.jar
+[10:05:13] [Render thread/INFO]: Loaded 26 recipes
+[10:05:14] [Render thread/INFO]: Registered 0 additional loot tables.
+[10:05:14] [Render thread/INFO]: Loaded 7381 advancements
+[10:05:14] [Render thread/INFO]: Registered 3 additional recipes.
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 iron_horse_armor, missing knowledge for {1 iron_helmet=1.0, 1 iron_leggings=2.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 diamond_horse_armor, missing knowledge for {1 diamond_leggings=2.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 iron_boots, missing knowledge for {1 leather_boots=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 diamond_leggings, missing knowledge for {1 leather_leggings=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 golden_leggings, missing knowledge for {1 leather_leggings=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 golden_helmet, missing knowledge for {1 leather_helmet=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 iron_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 golden_boots, missing knowledge for {1 leather_boots=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 iron_leggings, missing knowledge for {1 leather_leggings=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 iron_helmet, missing knowledge for {1 leather_helmet=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 golden_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 diamond_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[10:05:14] [Render thread/INFO]: Couldn't fully analyze 1 golden_horse_armor, missing knowledge for {1 golden_helmet=1.0, 1 golden_leggings=2.0}
+[10:05:14] [Render thread/INFO]: Finished recipe profiler for Arc Recycling, took 97 milliseconds
+[10:05:14] [Render thread/INFO]: Loaded   6 tweaks
+[10:05:14] [Render thread/INFO]: Loaded  69 materials
+[10:05:14] [Render thread/INFO]: Loaded 230 improvements
+[10:05:14] [Render thread/INFO]: Loaded  68 modules
+[10:05:14] [Render thread/INFO]: Clearing model cache for 7 items, let's get bakin'
+[10:05:14] [Render thread/INFO]: Loaded  10 enchantments
+[10:05:14] [Render thread/INFO]: Loaded  15 synergies
+[10:05:14] [Render thread/INFO]: Loaded  10 replacements
+[10:05:14] [Render thread/INFO]: Loaded 304 schematics
+[10:05:15] [Render thread/INFO]: Loaded  14 crafting_effects
+[10:05:15] [Render thread/INFO]: Loaded  17 repairs
+[10:05:15] [Render thread/INFO]: Loaded   4 predicatus
+[10:05:15] [Render thread/INFO]: Loaded   2 actions
+[10:05:15] [Render thread/INFO]: Loaded  10 destabilization
+[10:05:15] [Render thread/INFO]: Loaded  45 structures
+[10:05:15] [Render thread/INFO]: Beginning load of custom recipes for colony workers
+[10:05:15] [Render thread/INFO]: Loaded 464 recipes for 13 crafters
+[10:05:15] [Render thread/INFO]: Finished discovering compostables
+[10:05:15] [Render thread/INFO]: Beginning load of research for University.
+[10:05:15] [Render thread/INFO]: Loaded 183 recipes for 4 research branches
+[10:05:15] [Render thread/INFO]: Recipes for potions: minecraft:strong_leaping, minecraft:invisibility, minecraft:slowness, minecraft:long_fire_resistance, minecraft:strong_healing, minecraft:regeneration, minecraft:long_turtle_master, minecraft:strong_slowness, minecraft:harming, minecraft:fire_resistance, minecraft:long_slow_falling, minecraft:strong_swiftness, minecraft:water_breathing, minecraft:swiftness, minecraft:weakness, minecraft:long_water_breathing, minecraft:poison, minecraft:long_night_vision, minecraft:long_leaping, minecraft:long_poison, minecraft:healing, minecraft:strong_harming, minecraft:long_slowness, minecraft:mundane, minecraft:long_invisibility, minecraft:leaping, minecraft:long_strength, minecraft:strong_turtle_master, minecraft:long_weakness, minecraft:awkward, minecraft:turtle_master, minecraft:strong_poison, minecraft:strength, minecraft:thick, minecraft:strong_strength, minecraft:long_regeneration, minecraft:night_vision, minecraft:water, minecraft:long_swiftness, minecraft:slow_falling, minecraft:strong_regeneration
+[10:05:15] [Render thread/INFO]: Reading json
+[10:05:15] [Render thread/INFO]: Reading json
+[10:05:15] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[10:05:19] [Render thread/INFO]: Registering 1 commands.
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [crashutilities, e, remove, items, force] and [crashutilities, e, remove, items, name] with inputs: [words_with_underscores, word]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [crashutilities, e, remove, items, name] and [crashutilities, e, remove, items, force] with inputs: [words_with_underscores, word]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [crashutilities, i, remove, name, slot] and [crashutilities, i, remove, name, slotType] with inputs: [0, -123, 123]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [crashutilities, tp, player, pos] and [crashutilities, tp, player, otherPlayer] with inputs: [0 0 0]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [dc, broadcast, count] and [dc, broadcast, targets] with inputs: [0, -123, 123]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [dc, broadcast, targets] and [dc, broadcast, count] with inputs: [0123]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:05:19] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:05:19] [Render thread/INFO]: Reloading ResourceManager: Default, ExtraArmor 1.16.5 - 1.12.2.jar, glasscutter-1.16.4-2.0.1.jar, TrashSlot_1.16.3-12.2.1.jar, NetherPortalFix_1.16.3-7.2.1.jar, Variant16x-1.16.5-v0.21.4_beta_pre6.jar, DeathCounter-1.16.3-1.2.1.jar, jei-1.16.5-7.7.1.120.jar, caelus-forge-1.16.5-2.1.3.1.jar, invtweaks-1.16.4-1.0.1.jar, Neat 1.7-27.jar, BetterCaves-Forge-1.16.4-1.1.2.jar, Waystones_1.16.5-7.6.2.jar, glassential-forge-1.16.5-1.1.7.jar, Clumps-6.0.0.25.jar, XaerosWorldMap_1.16.1_Forge_1.16.5.jar, shutupexperimentalsettings-1.0.3.jar, mgui-1.16.5-3.2.0.jar, CookingForBlockheads_1.16.5-9.3.3.jar, Controlling-7.0.0.24.jar, ReAuth-1.16-Forge-3.9.3.jar, Placebo-1.16.4-4.5.0.jar, comforts-forge-1.16.5-4.0.1.2.jar, NaturesCompass-1.16.5-1.9.1-forge.jar, YungsApi-1.16.4-Forge-12.jar, netheritehorsearmor-1.7.jar, BasicNetherOres-1.16.5-5.5.0.jar, curioofundying-forge-1.16.5-5.2.0.0.jar, Wither-Skeleton-Tweaks-1.16.4-5.3.0.jar, FarmingForBlockheads_1.16.5-7.3.1.jar, Bookshelf-Forge-1.16.5-10.2.27.jar, u_team_core-1.16.5-3.2.1.196.jar, Morpheus-1.16.5-4.2.70.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, WAWLA-1.16.5-8.0.6.jar, farsight-1.6.jar, Toast-Control-1.16.4-4.3.1.jar, JustEnoughResources-1.16.5-0.12.1.128.jar, horsestandstill-1.16.5-1.0.2.jar, forge-1.16.5-36.2.2-universal.jar, shetiphiancore-1.16-3.8.5.jar, PackMenu-1.16.4-2.4.2.jar, CraftingTweaks_1.16.5-12.2.1.jar, DiceMC-TieredArmor-1.16.5-1.1a.jar, chocolate-1.3.0-1.16.4.jar, mcw-bridges-1.0.6-mc1.16.5.jar, useful_backpacks-1.16.5-1.12.1.90.jar, repurposed_structures_forge-3.2.2+1.16.5.jar, EnchantmentDescriptions-1.16.5-7.0.14.jar, MouseTweaks-2.14-mc1.16.2.jar, crashutilities-3.12.jar, ImmersiveEngineering-1.16.5-5.0.3-138.jar, silent-lib-1.16.5-4.10.0.jar, durability101-1.16-0.0.3.jar, RapidLeafDecay-1.16.5-2.0.0.jar, ceramicbucket-1.16.5-2.7.0.1.jar, simplylight-1.16.4-1.1.3.jar, simplefarming-1.16.5-1.3.8.jar, Ding-1.16.5-1.3.0.jar, ceilingtorch-1.16.5-v1.13.5.jar, ceramicshears-1.16.5-1.5.0.0.jar, jeiintegration_1.16.5-7.0.1.15.jar, curios-forge-1.16.5-4.0.5.2.jar, tetra-1.16.5-3.14.1.jar, Xaeros_Minimap_21.15.1_Forge_1.16.5.jar, collective-1.16.5-2.58.jar, torch-bandolier-1.16.5-1.5.3.jar, StorageDrawers-1.16.3-8.3.0.jar, storageracks-1.5.jar, performant-1.16.2-5-3.72m.jar, tombstone-1.16.5-6.5.1.jar, globaldataandresourcepacks-1.16.4-1.7.4.jar, structurize-0.13.210-ALPHA-universal.jar, betterconduitplacement_1.16.5-1.3.jar, AmbientEnvironment-5.0.0.11.jar, minecolonies-0.14.345-ALPHA-universal.jar, [1.16.1-1.16.4][Forge]TorchBowMod_v1.4.jar, appleskin-forge-mc1.16.x-2.1.0.jar, curiouselytra-forge-1.16.5-4.0.2.3.jar, connectedglass-1.1.0-mc1.16.jar, moreoverlays-1.18.15-mc1.16.5.jar, durabilityviewer-1.16.4-forge35.0.7-1.10.jar, byg-1.3.1.jar, betterbedrockgenerator-1.16.4-0.1.1.jar, CraftableHorseArmour-1.16.5-1.6.jar, FastLeafDecay-v25.jar, CosmeticArmorReworked-1.16.5-v4.jar, valhelsia_core-16.0.10.jar, valhelsia_structures-1.16.5-0.1.5.jar, ServerTabInfo-1.16.4-1.3.3.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, WailaHarvestability-mc1.16.x-forge-1.1.15.jar, supertools-1.16.5-4.5.jar, BetterAdvancements-1.16.5-0.1.1.115.jar
+[10:05:21] [Render thread/INFO]: Loaded 26 recipes
+[10:05:22] [Render thread/INFO]: Registered 0 additional loot tables.
+[10:05:22] [Render thread/INFO]: Loaded 7381 advancements
+[10:05:22] [Render thread/INFO]: Registered 3 additional recipes.
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 golden_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 iron_boots, missing knowledge for {1 leather_boots=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 iron_horse_armor, missing knowledge for {1 iron_helmet=1.0, 1 iron_leggings=2.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 iron_leggings, missing knowledge for {1 leather_leggings=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 golden_boots, missing knowledge for {1 leather_boots=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 diamond_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 diamond_leggings, missing knowledge for {1 leather_leggings=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 iron_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 diamond_horse_armor, missing knowledge for {1 diamond_leggings=2.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 golden_leggings, missing knowledge for {1 leather_leggings=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 golden_horse_armor, missing knowledge for {1 golden_leggings=2.0, 1 golden_helmet=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 iron_helmet, missing knowledge for {1 leather_helmet=1.0}
+[10:05:22] [Render thread/INFO]: Couldn't fully analyze 1 golden_helmet, missing knowledge for {1 leather_helmet=1.0}
+[10:05:22] [Render thread/INFO]: Finished recipe profiler for Arc Recycling, took 63 milliseconds
+[10:05:22] [Render thread/INFO]: Loaded   6 tweaks
+[10:05:22] [Render thread/INFO]: Loaded  69 materials
+[10:05:22] [Render thread/INFO]: Loaded 230 improvements
+[10:05:22] [Render thread/INFO]: Loaded  68 modules
+[10:05:22] [Render thread/INFO]: Clearing model cache for 7 items, let's get bakin'
+[10:05:22] [Render thread/INFO]: Loaded  10 enchantments
+[10:05:22] [Render thread/INFO]: Loaded  15 synergies
+[10:05:22] [Render thread/INFO]: Loaded  10 replacements
+[10:05:22] [Render thread/INFO]: Loaded 304 schematics
+[10:05:22] [Render thread/INFO]: Loaded  14 crafting_effects
+[10:05:22] [Render thread/INFO]: Loaded  17 repairs
+[10:05:22] [Render thread/INFO]: Loaded   4 predicatus
+[10:05:22] [Render thread/INFO]: Loaded   2 actions
+[10:05:22] [Render thread/INFO]: Loaded  10 destabilization
+[10:05:22] [Render thread/INFO]: Loaded  45 structures
+[10:05:22] [Render thread/INFO]: Beginning load of custom recipes for colony workers
+[10:05:22] [Render thread/INFO]: Loaded 464 recipes for 13 crafters
+[10:05:22] [Render thread/INFO]: Finished discovering compostables
+[10:05:22] [Render thread/INFO]: Beginning load of research for University.
+[10:05:22] [Render thread/INFO]: Loaded 183 recipes for 4 research branches
+[10:05:22] [Render thread/INFO]: Recipes for potions: minecraft:strong_leaping, minecraft:invisibility, minecraft:slowness, minecraft:long_fire_resistance, minecraft:strong_healing, minecraft:regeneration, minecraft:long_turtle_master, minecraft:strong_slowness, minecraft:harming, minecraft:fire_resistance, minecraft:long_slow_falling, minecraft:strong_swiftness, minecraft:water_breathing, minecraft:swiftness, minecraft:weakness, minecraft:long_water_breathing, minecraft:poison, minecraft:long_night_vision, minecraft:long_leaping, minecraft:long_poison, minecraft:healing, minecraft:strong_harming, minecraft:long_slowness, minecraft:mundane, minecraft:long_invisibility, minecraft:leaping, minecraft:long_strength, minecraft:strong_turtle_master, minecraft:long_weakness, minecraft:awkward, minecraft:turtle_master, minecraft:strong_poison, minecraft:strength, minecraft:thick, minecraft:strong_strength, minecraft:long_regeneration, minecraft:night_vision, minecraft:water, minecraft:long_swiftness, minecraft:slow_falling, minecraft:strong_regeneration
+[10:05:22] [Render thread/INFO]: Reading json
+[10:05:22] [Render thread/INFO]: Reading json
+[10:05:23] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[10:05:29] [Render thread/INFO]: Tags Loaded
+[10:05:29] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:05:29] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[10:05:29] [Server thread/INFO]: Generating keypair
+[10:05:29] [Server thread/INFO]: Loading "Rapid Leaf Decay" Server Config
+[10:05:29] [Server thread/INFO]: [decay_delay] = 5
+[10:05:29] [Server thread/INFO]: "Rapid Leaf Decay" Server Config loaded
+[10:05:29] [Thread-1/INFO]: Loading "Rapid Leaf Decay" Server Config
+[10:05:29] [Thread-1/INFO]: [decay_delay] = 5
+[10:05:29] [Thread-1/INFO]: "Rapid Leaf Decay" Server Config loaded
+[10:05:29] [Thread-1/INFO]: Loading "Rapid Leaf Decay" Server Config
+[10:05:29] [Thread-1/INFO]: [decay_delay] = 5
+[10:05:29] [Thread-1/INFO]: "Rapid Leaf Decay" Server Config loaded
+[10:05:29] [Server thread/WARN]: Configuration file C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\saves\Minecolonies Multiplayer\serverconfig\structurize-server.toml is not correct. Correcting
+[10:05:29] [Thread-1/WARN]: Updated logging config. RS Debug logging enabled: false
+[10:05:29] [Server thread/INFO]: Tags Loaded
+[10:05:29] [Server thread/INFO]: Tags Loaded
+[10:05:29] [Server thread/INFO]: Tags Loaded
+[10:05:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:05:30] [Render thread/INFO]: Preparing spawn area: 0%
+[10:05:30] [Render thread/INFO]: Preparing spawn area: 0%
+[10:05:30] [Render thread/INFO]: Preparing spawn area: 29%
+[10:05:31] [Render thread/INFO]: Time elapsed: 1250 ms
+[10:05:31] [Server thread/INFO]: Integrated Server Watchdog started
+[10:05:31] [Server thread/INFO]: BYG: "Server Starting" Event Complete!
+[10:05:31] [Server thread/INFO]: Finished discovering saplings
+[10:05:31] [Server thread/INFO]: Finished discovering Ores
+[10:05:31] [Server thread/INFO]: Finished discovering plantables
+[10:05:31] [Server thread/INFO]: Finished discovering food
+[10:05:31] [Server thread/INFO]: Finished discovering fuel
+[10:05:31] [Server thread/INFO]: Finished discovering lucky oreBlocks
+[10:05:31] [Server thread/INFO]: Finished discovering recruitment costs
+[10:05:31] [Server thread/INFO]: Finished discovering diseases
+[10:05:31] [Server thread/INFO]: Trying jar discover: assets/structurize
+[10:05:31] [Server thread/INFO]: Trying jar discover: assets/minecolonies
+[10:05:33] [Server thread/INFO]: Load additional huts or decorations from C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\structurize/schematics
+[10:05:33] [Server thread/INFO]: Load cached schematic from C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\structurize/cache
+[10:05:33] [Server thread/INFO]: Load cached schematic from C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\structurize/cache
+[10:05:34] [Server thread/INFO]: Changing view distance to 7, from 10
+[10:05:34] [Server thread/INFO]: The list of contributors has been loaded successfully
+[10:05:36] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[10:05:36] [Server thread/INFO]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3583318
+[10:05:36] [Server thread/INFO]: Hexagon37[local:E:a8f6d36d] logged in with entity id 320 at (-31.443532578990308, 77.0, 88.78319037761109)
+[10:05:36] [Server thread/INFO]: Hexagon37 joined the game
+[10:05:36] [Server thread/INFO]: Syncing config to Hexagon37 (d1117757-a312-4561-9398-fe7ec8cdd11d)
+[10:05:36] [Server thread/INFO]: Sending data to client: Hexagon37
+[10:05:36] [Server thread/INFO]: New Server UUID 0345c3d4-fbc1-4d65-b5c8-1b5fbe84305a
+[10:05:36] [Render thread/INFO]: [xaero.common.XaeroMinimapSession:init:56]: New minimap session initialized!
+[10:05:36] [Render thread/INFO]: [xaero.map.WorldMapSession:init:40]: New world map session initialized!
+[10:05:36] [Render thread/WARN]: Unknown recipe category: minecolonies:composting/minecolonies:compostables_rich
+[10:05:36] [Server thread/INFO]: Saving and pausing game...
+[10:05:36] [Render thread/WARN]: Unknown recipe category: minecolonies:composting/minecolonies:compostables_poor
+[10:05:36] [Render thread/WARN]: Unknown recipe category: minecolonies:composting/minecolonies:compostables
+[10:05:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecolonies Multiplayer]'/minecraft:overworld
+[10:05:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecolonies Multiplayer]'/minecraft:the_nether
+[10:05:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecolonies Multiplayer]'/minecraft:the_end
+[10:05:38] [Render thread/INFO]: Finished discovering compostables
+[10:05:38] [Render thread/INFO]: Starting JEI...
+[10:05:38] [Render thread/INFO]: Reloading ResourceManager: Default, ExtraArmor 1.16.5 - 1.12.2.jar, glasscutter-1.16.4-2.0.1.jar, TrashSlot_1.16.3-12.2.1.jar, NetherPortalFix_1.16.3-7.2.1.jar, Variant16x-1.16.5-v0.21.4_beta_pre6.jar, DeathCounter-1.16.3-1.2.1.jar, jei-1.16.5-7.7.1.120.jar, caelus-forge-1.16.5-2.1.3.1.jar, invtweaks-1.16.4-1.0.1.jar, Neat 1.7-27.jar, BetterCaves-Forge-1.16.4-1.1.2.jar, Waystones_1.16.5-7.6.2.jar, glassential-forge-1.16.5-1.1.7.jar, Clumps-6.0.0.25.jar, XaerosWorldMap_1.16.1_Forge_1.16.5.jar, shutupexperimentalsettings-1.0.3.jar, mgui-1.16.5-3.2.0.jar, CookingForBlockheads_1.16.5-9.3.3.jar, Controlling-7.0.0.24.jar, ReAuth-1.16-Forge-3.9.3.jar, Placebo-1.16.4-4.5.0.jar, comforts-forge-1.16.5-4.0.1.2.jar, NaturesCompass-1.16.5-1.9.1-forge.jar, YungsApi-1.16.4-Forge-12.jar, netheritehorsearmor-1.7.jar, BasicNetherOres-1.16.5-5.5.0.jar, curioofundying-forge-1.16.5-5.2.0.0.jar, Wither-Skeleton-Tweaks-1.16.4-5.3.0.jar, FarmingForBlockheads_1.16.5-7.3.1.jar, Bookshelf-Forge-1.16.5-10.2.27.jar, u_team_core-1.16.5-3.2.1.196.jar, Morpheus-1.16.5-4.2.70.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, WAWLA-1.16.5-8.0.6.jar, farsight-1.6.jar, Toast-Control-1.16.4-4.3.1.jar, JustEnoughResources-1.16.5-0.12.1.128.jar, horsestandstill-1.16.5-1.0.2.jar, forge-1.16.5-36.2.2-universal.jar, shetiphiancore-1.16-3.8.5.jar, PackMenu-1.16.4-2.4.2.jar, CraftingTweaks_1.16.5-12.2.1.jar, DiceMC-TieredArmor-1.16.5-1.1a.jar, chocolate-1.3.0-1.16.4.jar, forge-1.16.5-36.2.2-client.jar, mcw-bridges-1.0.6-mc1.16.5.jar, useful_backpacks-1.16.5-1.12.1.90.jar, repurposed_structures_forge-3.2.2+1.16.5.jar, EnchantmentDescriptions-1.16.5-7.0.14.jar, MouseTweaks-2.14-mc1.16.2.jar, crashutilities-3.12.jar, ImmersiveEngineering-1.16.5-5.0.3-138.jar, silent-lib-1.16.5-4.10.0.jar, durability101-1.16-0.0.3.jar, RapidLeafDecay-1.16.5-2.0.0.jar, ceramicbucket-1.16.5-2.7.0.1.jar, simplylight-1.16.4-1.1.3.jar, simplefarming-1.16.5-1.3.8.jar, Ding-1.16.5-1.3.0.jar, ceilingtorch-1.16.5-v1.13.5.jar, ceramicshears-1.16.5-1.5.0.0.jar, jeiintegration_1.16.5-7.0.1.15.jar, curios-forge-1.16.5-4.0.5.2.jar, tetra-1.16.5-3.14.1.jar, Xaeros_Minimap_21.15.1_Forge_1.16.5.jar, collective-1.16.5-2.58.jar, torch-bandolier-1.16.5-1.5.3.jar, StorageDrawers-1.16.3-8.3.0.jar, storageracks-1.5.jar, performant-1.16.2-5-3.72m.jar, tombstone-1.16.5-6.5.1.jar, globaldataandresourcepacks-1.16.4-1.7.4.jar, structurize-0.13.210-ALPHA-universal.jar, betterconduitplacement_1.16.5-1.3.jar, AmbientEnvironment-5.0.0.11.jar, minecolonies-0.14.345-ALPHA-universal.jar, [1.16.1-1.16.4][Forge]TorchBowMod_v1.4.jar, appleskin-forge-mc1.16.x-2.1.0.jar, curiouselytra-forge-1.16.5-4.0.2.3.jar, connectedglass-1.1.0-mc1.16.jar, moreoverlays-1.18.15-mc1.16.5.jar, durabilityviewer-1.16.4-forge35.0.7-1.10.jar, byg-1.3.1.jar, betterbedrockgenerator-1.16.4-0.1.1.jar, CraftableHorseArmour-1.16.5-1.6.jar, FastLeafDecay-v25.jar, CosmeticArmorReworked-1.16.5-v4.jar, valhelsia_core-16.0.10.jar, valhelsia_structures-1.16.5-0.1.5.jar, ServerTabInfo-1.16.4-1.3.3.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, WailaHarvestability-mc1.16.x-forge-1.1.15.jar, supertools-1.16.5-4.5.jar, BetterAdvancements-1.16.5-0.1.1.115.jar
+[10:05:39] [Render thread/INFO]: Received config from the server: {"wawla:hide_trap_chest":true,"minecraft:hide_infestations":true,"wawla:villager_type":true}
+[10:05:39] [Render thread/INFO]: Loaded   6 tweaks
+[10:05:39] [Render thread/INFO]: Loaded  69 materials
+[10:05:39] [Render thread/INFO]: Loaded 230 improvements
+[10:05:39] [Render thread/INFO]: Loaded  68 modules
+[10:05:39] [Render thread/INFO]: Clearing model cache for 7 items, let's get bakin'
+[10:05:39] [Render thread/INFO]: Loaded  10 enchantments
+[10:05:39] [Render thread/INFO]: Loaded  15 synergies
+[10:05:39] [Render thread/INFO]: Loaded  10 replacements
+[10:05:39] [Render thread/INFO]: Loaded 304 schematics
+[10:05:39] [Render thread/INFO]: Loaded  14 crafting_effects
+[10:05:39] [Render thread/INFO]: Loaded  17 repairs
+[10:05:39] [Render thread/INFO]: Loaded   4 predicatus
+[10:05:39] [Render thread/INFO]: Loaded   2 actions
+[10:05:39] [Render thread/INFO]: Loaded  10 destabilization
+[10:05:39] [Render thread/INFO]: Loaded  45 structures
+[10:05:39] [Render thread/INFO]: Trying jar discover: assets/structurize
+[10:05:39] [Render thread/INFO]: Trying jar discover: assets/minecolonies
+[10:05:41] [Render thread/INFO]: Load additional huts or decorations from C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\structurize/schematics
+[10:05:41] [Render thread/INFO]: Load cached schematic from C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\structurize/cache
+[10:05:41] [Render thread/INFO]: Load cached schematic from C:\Users\doria\Twitch\Minecraft\Instances\MineColonies Official (6)\structurize/cache
+[10:05:41] [Render thread/INFO]: Loaded 243 advancements
+[10:05:42] [Render thread/INFO]: Registered 0 additional loot tables.
+[10:05:44] [Render thread/INFO]: Adding recipes to JEI!!
+[10:05:44] [Render thread/WARN]: Error evaluating recipe minecraft:map_extending; ignoring.
+java.lang.NullPointerException: null
+	at net.minecraft.item.FilledMapItem.func_219994_a(FilledMapItem.java:50) ~[?:?]
+	at net.minecraft.item.FilledMapItem.getCustomMapData(FilledMapItem.java:65) ~[?:?]
+	at net.minecraft.item.FilledMapItem.func_195950_a(FilledMapItem.java:58) ~[?:?]
+	at net.minecraft.item.crafting.MapExtendingRecipe.func_77569_a(SourceFile:42) ~[?:?]
+	at net.minecraft.item.crafting.MapExtendingRecipe.func_77569_a(SourceFile:13) ~[?:?]
+	at com.minecolonies.api.crafting.GenericRecipe.calculateSecondaryOutputs(GenericRecipe.java:246) ~[?:0.14.345-ALPHA]
+	at com.minecolonies.api.crafting.GenericRecipe.of(GenericRecipe.java:54) ~[?:0.14.345-ALPHA]
+	at com.minecolonies.coremod.compatibility.jei.GenericRecipeUtils.create(GenericRecipeUtils.java:73) ~[?:0.14.345-ALPHA]
+	at com.minecolonies.coremod.compatibility.jei.JEIPlugin.tryAddingVanillaRecipe(JEIPlugin.java:179) [?:0.14.345-ALPHA]
+	at com.minecolonies.coremod.compatibility.jei.JEIPlugin.buildVanillaRecipesMap(JEIPlugin.java:157) [?:0.14.345-ALPHA]
+	at com.minecolonies.coremod.compatibility.jei.JEIPlugin.registerRecipes(JEIPlugin.java:112) [?:0.14.345-ALPHA]
+	at mezz.jei.load.PluginLoader.lambda$new$5(PluginLoader.java:117) [?:7.7.1.120]
+	at mezz.jei.load.PluginLoader$$Lambda$12232/827982301.accept(Unknown Source) [?:7.7.1.120]
+	at mezz.jei.load.PluginCaller.callOnPlugins(PluginCaller.java:26) [?:7.7.1.120]
+	at mezz.jei.load.PluginLoader.<init>(PluginLoader.java:117) [?:7.7.1.120]
+	at mezz.jei.startup.JeiStarter.start(JeiStarter.java:69) [?:7.7.1.120]
+	at mezz.jei.startup.ClientLifecycleHandler.startJEI(ClientLifecycleHandler.java:147) [?:7.7.1.120]
+	at mezz.jei.startup.ClientLifecycleHandler.setupJEI(ClientLifecycleHandler.java:140) [?:7.7.1.120]
+	at mezz.jei.startup.ClientLifecycleHandler.lambda$new$3(ClientLifecycleHandler.java:106) [?:7.7.1.120]
+	at mezz.jei.startup.ClientLifecycleHandler$$Lambda$8335/1341999800.accept(Unknown Source) [?:7.7.1.120]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2969/206142037.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2605/422136515.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:711) [?:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314) [?:?]
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27) [?:?]
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15) [?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) [?:?]
+	at net.minecraft.network.PacketThreadUtil$$Lambda$11788/29499159.run(Unknown Source) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) [?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:947) [?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.2.2.jar:36.2]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$477/1434092798.call(Unknown Source) [forge-1.16.5-36.2.2.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+[10:05:45] [Render thread/INFO]: Building ingredient list...
+[10:05:45] [Render thread/INFO]: Building ingredient list took 5.170 ms
+[10:05:45] [Render thread/INFO]: Building ingredient filter...
+[10:05:47] [Render thread/INFO]: Building ingredient filter took 1.105 s
+[10:05:47] [Render thread/INFO]: Building bookmarks...
+[10:05:47] [Render thread/INFO]: Building bookmarks took 7.592 ms
+[10:05:47] [Render thread/INFO]: Building recipe registry...
+[10:05:47] [Render thread/INFO]: Building recipe registry took 146.1 ms
+[10:05:47] [Render thread/INFO]: Building runtime...
+[10:05:47] [Render thread/INFO]: Building runtime took 77.77 ms
+[10:05:47] [Render thread/INFO]: Ingredients are being added at runtime: 1 net.minecraft.item.ItemStack
+[10:05:47] [Render thread/INFO]: Starting JEI took 8.966 s
+[10:05:47] [Render thread/INFO]: [xaero.common.minimap.render.radar.EntityIconPrerenderer:<init>:184]: No Iris!
+[10:05:47] [Render thread/INFO]: [xaero.common.minimap.render.radar.EntityIconManager:resetResources:176]: Reloading entity icon resources...
+[10:05:47] [Render thread/INFO]: [xaero.common.minimap.render.radar.EntityIconManager:resetResources:189]: Done!
+[10:06:39] [Worker-Main-24/INFO]: CREATING AND INIT'ING CARVER W DIMENSION minecraft:overworld...
+[10:06:39] [Worker-Main-24/INFO]: Better Caves config file for dimension minecraft:overworld not found. Using global config...
+[10:06:39] [Worker-Main-24/INFO]: Using block 'minecraft:lava' as lava in cave generation for dimension minecraft:overworld
+[10:06:39] [Worker-Main-24/INFO]: Using block 'Block{minecraft:water}[level=0]' as water in cave generation for dimension minecraft:overworld
+[10:07:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8238ms or 164 ticks behind
